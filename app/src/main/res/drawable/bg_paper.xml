@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base paper tone -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#F6F1EB" />
+        </shape>
+    </item>
+
+    <!-- Soft vertical depth -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#FAF7F3"
+                android:endColor="#EFE7DD"
+                android:angle="90" />
+        </shape>
+    </item>
+
+    <!-- Subtle vignette (edges darker) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="600dp"
+                android:centerX="0.5"
+                android:centerY="0.4"
+                android:startColor="#00FFFFFF"
+                android:endColor="#14000000" />
+        </shape>
+    </item>
+
+</layer-list>

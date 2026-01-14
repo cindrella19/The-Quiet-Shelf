@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/book_card_bg"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <!-- Title: Largest hierarchy -->
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2C2C2C"
+        android:fontFamily="serif"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Vibes: Subtle and grouped -->
+    <TextView
+        android:id="@+id/bookVibes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#B79B4A"
+        android:textAllCaps="true"
+        android:letterSpacing="0.1"
+        android:fontFamily="serif"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Quote: Italics, slightly smaller -->
+    <TextView
+        android:id="@+id/bookQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:textColor="#5B5248"
+        android:lineSpacingExtra="2dp"
+        android:fontFamily="serif"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Rating: Numeric bottom-aligned -->
+    <TextView
+        android:id="@+id/bookRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#5B5248"
+        android:fontFamily="serif"/>
+
+</LinearLayout>

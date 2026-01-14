@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_paper_flower"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help &amp; Support"
+            android:textColor="#5B5248"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to add books?"
+            android:textColor="#5B5248"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navigate to the 'Booklist' tab at the bottom and tap the 'Add Book' button. You can search for any book in the world using our integrated Google Books API."
+            android:textColor="#5B5248"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D0C8BE"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Managing your Shelf"
+            android:textColor="#5B5248"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In your Booklist, you can see all your saved treasures. Long-press any book block to remove it from your digital library forever."
+            android:textColor="#5B5248"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+    </LinearLayout>
+</ScrollView>

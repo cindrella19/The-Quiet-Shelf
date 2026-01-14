@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- The Quiet Shelf - Refined Luxury Palette -->
+    <color name="icon_bg_midnight">#0B1121</color>
+    <color name="book_cover">#3E2723</color>        <!-- Deep Espresso Brown -->
+    <color name="book_cover_dark">#263238</color>   <!-- Deep Navy Spine -->
+    <color name="page_cream">#FDF5E6</color>
+    <color name="page_shadow">#D9CBB3</color>
+    <color name="icon_ink">#2D2D2D</color>
+    
+    <!-- Accessories -->
+    <color name="pearl_pure">#F0F4F8</color>        <!-- Bright, Cool Pearl -->
+    <color name="pearl_glow">#FFFFFF</color>        <!-- Pearl Highlight -->
+    <color name="luxury_gold">#C5A059</color>
+    <color name="pen_body">#2C3E50</color>
+    <color name="flower_blush">#FFB7C5</color>      <!-- Bright Aesthetic Pink -->
+</resources>

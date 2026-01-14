@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1058177635186",
+    "project_id": "the-quiet-shelf-85608",
+    "storage_bucket": "the-quiet-shelf-85608.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058177635186:android:e9c32d4402ef5e503283eb",
+        "android_client_info": {
+          "package_name": "com.example.book"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyKlln5mvEcoH_ADCRiawFHx_A1xegXsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
